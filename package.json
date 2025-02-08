@@ -9,7 +9,8 @@
     "prisma:migrate": "npm run build:schema && prisma migrate dev",
     "prisma:studio": "npx prisma studio",
     "test": "mocha ./src/test/.test.js --exit",
-    "jest": "jest"
+    "jest": "jest",
+    "watch": "tsc -w"
   },
   "keywords": [],
   "author": "",
